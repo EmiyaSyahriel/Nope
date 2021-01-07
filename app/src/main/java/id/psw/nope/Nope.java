@@ -10,7 +10,7 @@ import java.util.Calendar;
 
 public class Nope extends Activity {
 
-    private boolean isDebug = true;
+    private boolean isDebug = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
