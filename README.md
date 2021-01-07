@@ -31,6 +31,10 @@ This app is very simple, Anyone can make it.
 - [Nothing](https://play.google.com/store/apps/details?id=com.gorro.nothing&hl=in&gl=US), Android 4.1, 14MB, But it has secrets and more letters!, Which literally is not really nothing.
 - [Nothing Lite](https://play.google.com/store/apps/details?id=com.asurya.nothinglite&hl=en_US&gl=US), Android 4.0.3, 826kB, Lite version of Nothing made by other developer.
 
+### Screenshots
+![App View](readme_asset/app.jpeg)
+![Recent View](readme_asset/recent.jpeg)
+
 ## License
 Also, Nope (I mean, Unlicense)
 ````
