@@ -17,25 +17,10 @@ public class NopeView extends View {
         initPaint();
     }
 
-    public NopeView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-        initPaint();
-    }
-
-    public NopeView(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-        initPaint();
-    }
-
     protected Paint white;
     protected Paint black;
-    protected Calendar calendar;
-    protected float d(){ return getContext().getResources().getDisplayMetrics().density; }
     protected float sd(){ return getContext().getResources().getDisplayMetrics().scaledDensity; }
-    protected float d(float i){ return d() * i; }
     protected float sd(float i){ return sd() * i; }
-    protected int d( int i){ return Math.round(d() * i) ; }
-    protected int sd(int i){ return Math.round(sd() * i) ; }
 
     protected void initPaint(){
         white = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -47,17 +32,19 @@ public class NopeView extends View {
     }
 
     protected Rect tmpRect = new Rect(0,0,0,0);
-    protected void drawText(Canvas canvas, String text, float x, float y, float yOffset, Paint paint){
-        paint.getTextBounds(text, 0, text.length(), tmpRect);
-        canvas.drawText(text,x,y + (tmpRect.width() * yOffset), paint);
-    }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         if(canvas != null){
             canvas.drawPaint(Nope.isNight() ? black : white);
-            drawText(canvas, "Nope", getWidth()/2f, getHeight()/2f, 0.5f, Nope.isNight() ? white : black);
+
+            Paint textPaint = Nope.isNight() ? white : black;
+            String text = getContext().getString(R.string.app_name);
+            float x = getWidth()/2f, y = getHeight() /2f;
+
+            textPaint.getTextBounds(text, 0, text.length(), tmpRect);
+            canvas.drawText(text, x,y + (tmpRect.width() * 0.5f), textPaint);
         }
     }
 }
