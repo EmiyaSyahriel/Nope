@@ -32,8 +32,12 @@ This app is very simple, Anyone can make it.
 - [Nothing Lite](https://play.google.com/store/apps/details?id=com.asurya.nothinglite&hl=en_US&gl=US), Android 4.0.3, 826kB, Lite version of Nothing made by other developer.
 
 ### Screenshots
-![App View](readme_asset/app.jpeg)
-![Recent View](readme_asset/recent.jpeg)
+<img src="readme_asset/app.jpeg"
+                    alt="App View"
+                    style="max-width:250px" />
+<img src="readme_asset/recent.jpeg"
+                    alt="Recent View"
+                    style="max-width:250px" />
 
 ## License
 Also, Nope (I mean, Unlicense)
