@@ -27,8 +27,8 @@ You know, Android 1.0 has less API than later version. And also, I used Java ins
 
 This app is very simple, Anyone can make it.
 
-### Similar App
-- [Nothing](https://play.google.com/store/apps/details?id=com.gorro.nothing&hl=in&gl=US), Android 4.1, 14MB, But it secrets and more letters!, Which literally is not really nothing.
+### Influenced by
+- [Nothing](https://play.google.com/store/apps/details?id=com.gorro.nothing&hl=in&gl=US), Android 4.1, 14MB, But it has secrets and more letters!, Which literally is not really nothing.
 - [Nothing Lite](https://play.google.com/store/apps/details?id=com.asurya.nothinglite&hl=en_US&gl=US), Android 4.0.3, 826kB, Lite version of Nothing made by other developer.
 
 ## License
