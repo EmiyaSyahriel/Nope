@@ -34,10 +34,10 @@ This app is very simple, Anyone can make it.
 ### Screenshots
 <img src="readme_asset/app.jpeg"
                     alt="App View"
-                    style="max-width:250px" />
+                    width="250" />
 <img src="readme_asset/recent.jpeg"
                     alt="Recent View"
-                    style="max-width:250px" />
+                    width="250" />
 
 ## License
 Also, Nope (I mean, Unlicense)
