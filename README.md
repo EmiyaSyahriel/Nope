@@ -8,8 +8,8 @@ Just launch the app, and Nope.
 - Night Day Cycle
 - Supports Android 1.0! **literally!**
 - Small APK size!
-    - 9kB for Release
-    - 11kB for Debug
+    - 11kB for Release
+    - 12kB for Debug
 - Fast App Launch! <sup>[1]</sup>
     - Nokia 6.1 Plus : 8ms
     - AVD Android Emulator API 29 : 17ms <sup>[2]</sup>
