@@ -14,7 +14,7 @@ import java.util.Calendar;
 
 public class Nope extends Activity {
 
-    private final boolean isDebug = false;
+    private final boolean isDebug = BuildConfig.DEBUG;
     private boolean usesSoftkey = true;
 
     @Override
@@ -48,6 +48,9 @@ public class Nope extends Activity {
 
     public void makeNoTitle(){
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+        if(Build.VERSION.SDK_INT >= 29){
+            getWindow().getAttributes().layoutInDisplayCutoutMode = WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES;
+        }
     }
 
     public void makeFullScreen(){
